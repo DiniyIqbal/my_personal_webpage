@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .profile h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #4CAF50;
+        }
+
+        .profile p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .section {
+            padding: 20px;
+        }
+
+        .section h3 {
+            margin-top: 0;
+            font-size: 20px;
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            margin: 5px 0;
+            padding-left: 10px;
+            position: relative;
+        }
+
+        .section ul li::before {
+            content: '\2022';
+            color: #4CAF50;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ddd;
+        }
+
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>Biodata</header>
+
+    <div class="container">
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Picture">
+            <div>
+                <h2>John Doe</h2>
+                <p>Web Developer</p>
+                <p>Location: New York, USA</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>About Me</h3>
+            <p>I am a passionate web developer with experience in creating dynamic and responsive websites.</p>
+        </div>
+
+        <div class="section">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Contact</h3>
+            <p>Email: johndoe@example.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </div>
+
+    <div class="contact">
+        <p>Connect with me on <a href="#">LinkedIn</a></p>
+    </div>
+</body>
+</html>
